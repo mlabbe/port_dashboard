@@ -102,6 +102,6 @@ class scanner2:
         if match == None:
             return "@unknown"
         else:
-            return match.group(1)
+            return match.group(1).rstrip()
             
             
